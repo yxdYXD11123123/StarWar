@@ -1,0 +1,76 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,add_mp3,bgm_mp3,loading_json,loadingBG_jpg,num_fnt,num_png,clickButton_mp3,gameover_mp3,game_img_json,gameOverBg_png,qr_code2_png",
+			"name": "preload"
+		},
+		{
+			"keys": "loading_json,loadingBG_jpg,num_fnt,num_png",
+			"name": "loading"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/sound/add.mp3",
+			"type": "sound",
+			"name": "add_mp3"
+		},
+		{
+			"url": "assets/sound/bgm.mp3",
+			"type": "sound",
+			"name": "bgm_mp3"
+		},
+		{
+			"url": "loading/loading.json",
+			"type": "sheet",
+			"name": "loading_json",
+			"subkeys": "loading_bar1_png,loading_bar2_png,loading_icon_png"
+		},
+		{
+			"url": "loading/loadingBG.jpg",
+			"type": "image",
+			"name": "loadingBG_jpg"
+		},
+		{
+			"url": "loading/num.fnt",
+			"type": "font",
+			"name": "num_fnt"
+		},
+		{
+			"url": "loading/num.png",
+			"type": "image",
+			"name": "num_png"
+		},
+		{
+			"url": "assets/sound/clickButton.mp3",
+			"type": "sound",
+			"name": "clickButton_mp3"
+		},
+		{
+			"url": "assets/sound/gameover.mp3",
+			"type": "sound",
+			"name": "gameover_mp3"
+		},
+		{
+			"url": "assets/game/game_img.json",
+			"type": "sheet",
+			"name": "game_img_json",
+			"subkeys": "1st_png,2nd_png,3rd_png,arrow_png,batman2_png,batman_png,bg_png,bigcup_png,blue2_png,blue_png,boom_png,button_png,circle_png,clock_png,close_png,cup_png,disk_png,explain_png,gameRules_png,hole_png,light_png,line_png,logo2_png,logo3_png,logo_png,mask_png,pig_png,player_png,playerlight_png,purple_png,qr_code_png,rect_png,rectbk_png,rectwh_png,rules_btn_png,starWars_png,star_fight_png,startgame_png,txt_dzdfp_png,txt_zwz_png,voice_open_png,voice_png,wall2_png,wall_png,yellow_png"
+		},
+		{
+			"url": "assets/game/gameOverBg.png",
+			"type": "image",
+			"name": "gameOverBg_png"
+		},
+		{
+			"name": "qr_code2_png",
+			"type": "image",
+			"url": "assets/game/qr_code2.png"
+		}
+	]
+}
